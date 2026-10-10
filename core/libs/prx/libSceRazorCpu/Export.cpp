@@ -52,4 +52,9 @@ int APS5_VABI sceRazorCpuWriteBookmark(const char* label, const char* descriptio
  return 0;
 }
 
+
+int APS5_VABI sceRazorCpuSync(void) {
+	return 0;
+}
+
 }
